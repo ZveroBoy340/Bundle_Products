@@ -1,0 +1,32 @@
+.bundles-include {
+    margin-top: 20px;
+}
+
+.bundles-include h3 {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.bundles-include .bundle-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.bundles-include .bundle-item .image-bundle {
+    margin-right: 20px;
+    display: flex;
+}
+
+.bundles-include .bundle-item .image-bundle img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.bundles-include .bundle-item .content-bundle .product-bundle-price {
+    font-size: 17px;
+}
